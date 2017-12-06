@@ -1,7 +1,9 @@
 {
   "extends": "airbnb-base",
-  "plugins": ["import"],
-  "consistent-return": 0,
+  "plugins": [
+      "import"
+  ],
+  // "consistent-return": 0,
   "rules": {
     "no-param-reassign": 0,
     "max-len": 0,
@@ -10,7 +12,9 @@
     "consistent-return": 0,
     "no-useless-return": 0,
     "no-return-assign": 0,
+    "comma-dangle": 0,
     "arrow-body-style": 0,
+    "max-len": 0,
     "no-unused-vars": 0,
     "no-useless-constructor": 0,
     "import/no-unresolved": 0
